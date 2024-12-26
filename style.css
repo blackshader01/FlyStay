@@ -1,0 +1,206 @@
+nav{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    height: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffe600;
+    font-size: 35px;
+    margin-left: 30px;
+    
+}
+.left{
+    margin-top: 150px;
+}
+.first-page{
+    background: #000;
+    width: 100%;
+    min-height:100vh;
+}
+#section-one h1{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-left: -14px;
+}
+#section-one h1 span{
+    color: #ffe600;
+}
+.book-button{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ffe600;
+    border: none;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    margin-left: -14px;
+}
+.book-button a{
+    text-decoration: none;
+    color: #000;
+}
+#section-one h3{
+    color: #ffffff;
+    font-size: 28px;
+    margin-left: -141px;
+}
+#section-one .connect-button{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    background: #ffe600;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+
+}
+.connect-button a{
+    text-decoration: none;
+    color: #000;
+}
+.connect-button span{
+    font-size: 21px;
+    margin: 13px;
+    color: black;
+    font-weight: bold;
+}
+#section-two h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#forms{
+    display: flex;
+    justify-content: space-between;
+}
+.flight-form {
+    width: 650px;
+    background: #000000;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+
+}
+
+.flight-form h3 {
+    font-size: 25px;
+    color: #ffe600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flight-form table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.flight-form table tr {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.flight-form table td {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.flight-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.flight-form select,
+.flight-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.flight-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffe600;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.flight-form button:hover {
+    background-color: #ffcc00;
+}
+
+.flight-form .radio-group {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    gap: 10px; /* Adjust spacing between items */
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.radio-group label {
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+.radio-group input[type="radio"] {
+    margin: 0; /* Remove any default margin */
+    vertical-align: middle; /* Ensure alignment with the label */
+}
+.footer-body{
+    background: #000;
+    color: white;
+    align-items: center;
+}
+button:hover {
+    background-color: #ffcc00;
+}
+.connect-button {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: start;
+    background-color: yellow;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 7px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.connect-button i {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.connect-button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.connect-button:hover {
+    background-color: #ffd700;
+}
